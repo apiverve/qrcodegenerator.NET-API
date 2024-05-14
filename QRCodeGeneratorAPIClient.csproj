@@ -1,0 +1,38 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.1</TargetFramework>
+    <Nullable>enable</Nullable>
+    <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+    <Title>APIVerve.API.QRCodeGenerator</Title>
+    <Version>1.0.0</Version>
+    <Authors>APIVerve</Authors>
+    <Company>APIVerve</Company>
+    <PackageLicenseFile>LICENSE</PackageLicenseFile>
+    <PackageRequireLicenseAcceptance>False</PackageRequireLicenseAcceptance>
+    <PackageReadmeFile>Readme.md</PackageReadmeFile>
+    <PackageProjectUrl>https://apiverve.com/marketplace/api/qrcodegenerator</PackageProjectUrl>
+    <SignAssembly>False</SignAssembly>
+    <Description>QR Code Generator is a simple tool for generating QR codes. It returns a PNG image of the QR code.</Description>
+    <RepositoryUrl>https://github.com/apiverve/qrcodegenerator-NET</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+    <PackageTags>qr code generator; qr code generator api; qr code generator tool; qr code generator software; qr code generator service; qr code generator library; qr code generator sdk; qr code generator code; qr code generator script; qr code generator program; qr code generator application; qr code generator app; qr code generator utility; qr code generator helper; qr code generator helper tool; qr code generator helper software; qr code generator helper service; qr code generator helper library; qr code generator helper sdk; qr code generator helper code; qr code generator helper script; qr code generator helper program; qr code generator helper application; qr code generator helper app; qr code generator helper tool; qr code generator helper utility; qr code generator helper</PackageTags>
+    <Copyright>©2024 APIVerve. All Rights Reserved</Copyright>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="LICENSE">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+    <None Update="Readme.md">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+  </ItemGroup>
+
+</Project>
