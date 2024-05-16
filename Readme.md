@@ -71,9 +71,9 @@ Using the API client, you can perform requests to the API.
 
 ```
 var queryOptions = new qrcodegeneratorQueryOptions{
-  "value": "https://myspace.com",
-  "format": "png",
-  "margin": "0"
+  value: "https://myspace.com",
+  format: "png",
+  margin: "0"
 };
 ```
 
@@ -84,7 +84,7 @@ var response = apiClient.Execute(queryOptions);
 if(response.error != null) {
 	Console.WriteLine(response.error);
 } else {
-    var jsonResponse = JsonConvert.SerializeObject(response.data, Newtonsoft.Json.Formatting.Indented);
+    var jsonResponse = JsonConvert.SerializeObject(response, Newtonsoft.Json.Formatting.Indented);
     Console.WriteLine(jsonResponse);
 }
 ```
