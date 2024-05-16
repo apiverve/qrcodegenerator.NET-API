@@ -70,10 +70,10 @@ Using the API client, you can perform requests to the API.
 ###### Define Query
 
 ```
-var queryOptions = new qrcodegeneratorQueryOptions{
-  value: "https://myspace.com",
-  format: "png",
-  margin: "0"
+var queryOptions = new qrcodegeneratorQueryOptions {
+  value = "https://myspace.com",
+  format = "png",
+  margin = "0"
 };
 ```
 
