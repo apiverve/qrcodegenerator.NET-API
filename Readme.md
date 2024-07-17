@@ -72,6 +72,7 @@ Using the API client, you can perform requests to the API.
 ```
 var queryOptions = new qrcodegeneratorQueryOptions {
   value = "https://myspace.com",
+  type = "url",
   format = "png",
   margin = "0"
 };
@@ -96,11 +97,14 @@ if(response.error != null) {
   "status": "ok",
   "error": null,
   "data": {
-    "type": "png",
+    "id": "d8d12c06-c7c6-486f-81e9-508957e62e59",
+    "format": "png",
+    "type": "url",
     "correction": "M",
     "size": 5,
     "margin": 0,
-    "base64Image": "iVBORw0KGgoAAAANSUhEUgAAAH0AAAB9CAAAAACq6zP5AAABIElEQVR42u3aQQ7DIAxE0dz/0nQdJMyMSTfMZ9WKkkelJNiG59m38W5Tx/STqeO8od+qj1Vb9tZIPXYehh6s11dQ73RhgujoB3r92kRH/6++NNHRS11dxoWvn0cX6BfqQq7R/PRRJoV+lz7EVo9QM5h5GHqm7geKjRy5vh56nK4GgNYU5F70dF3NgtVqobLwo2fq6t6HGmT6+yvo8brwHPgJ9WaC6Jm6WnYREhU/8UYP1YVKspBQC5sn63+Mnqn7e7rLEdb00ZN1P2S0NjvWyTh6nO7XqK364ubGR8/UjzfNjt+Y6KG6evZADS2tCaIn69Y5K/9JapTJ0dGN0wVqHICO3jtT2nwto6Pv13dht1itFqKjOytzM8n56EQr+i36D9bq7I+6Id+AAAAAAElFTkSuQmCC"
+    "expires": 1721402311899,
+    "downloadURL": "https://storage.googleapis.com/apiverve.appspot.com/qrcodegenerator/deadb24a-e658-40af-a0c3-b124c8ed35ce.png?GoogleAccessId=635500398038-compute%40developer.gserviceaccount.com&Expires=1721402311&Signature=XC1VU2yoGDRkFdjMU4OBeKZfbxaXbSRdW75s3ZfqVP3FKRX1dhSIua%2BRqCdDYZsj4ZlJsl8jAQcwS%2B6WXJW%2BDWf0k0z1UK42ZniLKLk5jDFvFjl2BYoXy%2BVolb%2BZyorRNmg%2BseXtsEuHswnlTQurs%2F%2FF%2BE51TvkbpjodvLg8J%2Fxn5oBmo%2BKtaBM9kEv11yHB88mTZLBmp5re8xMTRA9qFmHCOxgqOTPe0Y7FFMqMxmFhzT%2BuLkpfrab7KivhzSaKIjIThCMb%2BQyrZoSU%2F2Ag3zHuY%2B2ib7Am0ETFr%2FV1s8%2Fdxc6IUcKn3IyxEqhG7VnCc1vlMSmqmOn%2FFy%2F6kxnrNw%3D%3D"
   }
 }
 ```
