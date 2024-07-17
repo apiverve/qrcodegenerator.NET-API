@@ -6,6 +6,12 @@ namespace APIVerve
 {
 public class data
 {
+    [JsonProperty("id")]
+    public string id { get; set; }
+
+    [JsonProperty("format")]
+    public string format { get; set; }
+
     [JsonProperty("type")]
     public string type { get; set; }
 
@@ -18,8 +24,11 @@ public class data
     [JsonProperty("margin")]
     public int margin { get; set; }
 
-    [JsonProperty("base64Image")]
-    public string base64Image { get; set; }
+    [JsonProperty("expires")]
+    public int expires { get; set; }
+
+    [JsonProperty("downloadURL")]
+    public string downloadURL { get; set; }
 
 }
 
