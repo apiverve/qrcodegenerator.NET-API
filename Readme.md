@@ -70,7 +70,7 @@ Using the API client, you can perform requests to the API.
 ###### Define Query
 
 ```
-var queryOptions = new qrcodegeneratorQueryOptions {
+var queryOptions = new QRCodeGeneratorQueryOptions {
   value = "https://myspace.com",
   type = "url",
   format = "png",
@@ -97,15 +97,16 @@ if(response.error != null) {
   "status": "ok",
   "error": null,
   "data": {
-    "id": "d8d12c06-c7c6-486f-81e9-508957e62e59",
+    "id": "62cfbf09-2532-431c-aed0-6d4c1a6c7140",
     "format": "png",
     "type": "url",
     "correction": "M",
     "size": 5,
     "margin": 0,
-    "expires": 1721402311899,
-    "downloadURL": "https://storage.googleapis.com/apiverve.appspot.com/qrcodegenerator/deadb24a-e658-40af-a0c3-b124c8ed35ce.png?GoogleAccessId=635500398038-compute%40developer.gserviceaccount.com&Expires=1721402311&Signature=XC1VU2yoGDRkFdjMU4OBeKZfbxaXbSRdW75s3ZfqVP3FKRX1dhSIua%2BRqCdDYZsj4ZlJsl8jAQcwS%2B6WXJW%2BDWf0k0z1UK42ZniLKLk5jDFvFjl2BYoXy%2BVolb%2BZyorRNmg%2BseXtsEuHswnlTQurs%2F%2FF%2BE51TvkbpjodvLg8J%2Fxn5oBmo%2BKtaBM9kEv11yHB88mTZLBmp5re8xMTRA9qFmHCOxgqOTPe0Y7FFMqMxmFhzT%2BuLkpfrab7KivhzSaKIjIThCMb%2BQyrZoSU%2F2Ag3zHuY%2B2ib7Am0ETFr%2FV1s8%2Fdxc6IUcKn3IyxEqhG7VnCc1vlMSmqmOn%2FFy%2F6kxnrNw%3D%3D"
-  }
+    "expires": 1723788997986,
+    "downloadURL": "https://storage.googleapis.com/apiverve.appspot.com/qrcodegenerator/157c42c1-d8f9-4d6b-90c8-0d9d1e63d0b2.png?GoogleAccessId=635500398038-compute%40developer.gserviceaccount.com&Expires=1723788997&Signature=VEa1VkikAPtd7MAsC7DyiQwj5RtLxh9IC063Cz8eAafaJ9NuZ1zm5F1Eq4ukM%2FPWES5ro%2BU2mgDKHEPoNXQHWBeEgIK7E1JjUMZJaY%2BrgIYnv7dViAnbNmcd6T%2BayBy9Ewv62kE7hRoHWHmmQM8tOsJxExo7KiXoW6qnz8ldm4brkSVvo3Jop6nAMOGptq2oo0PjWOhG0oYGJ0TWjyNBwWQg5t8pK%2BdarCZwfM8JHViQSgVZBIsdiu%2FNBe64U1Jx%2FKoRdY8gpjyt4b01vqP1tZ0erdQmk%2FLJOjJB9EzoftaHQ8rRw7MkVkFqxiFhdRHp9qHu51Ga2Lm2ctUUsJO%2Fpw%3D%3D"
+  },
+  "code": 200
 }
 ```
 
