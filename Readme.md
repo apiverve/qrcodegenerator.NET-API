@@ -32,9 +32,9 @@ From within Visual Studio:
 
 1. Open the Solution Explorer.
 2. Right-click on a project within your solution.
-3. Click on Manage NuGet Packages...
+3. Click on Manage NuGet Packages..
 4. Click on the Browse tab and search for "APIVerve.API.QRCodeGenerator".
-5. Click on the APIVerve.API.QRCodeGenerator package, select the appropriate version in the right-tab and click Install.
+5. Click on the APIVerve.API.QRCodeGenerator package, click Install.
 
 
 ---
@@ -97,14 +97,14 @@ if(response.error != null) {
   "status": "ok",
   "error": null,
   "data": {
-    "id": "a70afcc3-4312-444e-86e8-c2ead93adbd6",
+    "id": "31d88a02-4dd3-4c97-9725-995551c31512",
     "format": "png",
     "type": "url",
     "correction": "M",
     "size": 5,
     "margin": 0,
-    "expires": 1725356234817,
-    "downloadURL": "https://storage.googleapis.com/apiverve.appspot.com/qrcodegenerator/5397ce9e-e836-4054-8818-affe900fdf08.png?GoogleAccessId=635500398038-compute%40developer.gserviceaccount.com&Expires=1725356234&Signature=R1xB3a98C84ErpGbMLU0cbQkAjKuGMci2escPqjJS98czgoBpaet77o3fZJqbce39EM5zD8eBKUvfqo1O4Lcsxm8mJaD2jQzYhUfuUFU9R89PmnZCQPTsELW2Q%2BnA4sKyQaRBTT2el8Ul9tuqz83jMwrB2JQSeDGKkeY4bIiDWNkcA%2BigLpYbxshYLmensgnkZewaa%2FIhu%2F8S7W89mwIPpeMQhJW4FMNdIVgVRnmQnAeBIrKWdYLNfuOZ0mgbSoFN7S3VIj4EkOfB%2BW04IWQlwKfof9QAamJRCdBHGFX1fTbMEYyFruVj6Iec4r%2BHQxwkNspO%2FvRZy0Na5Rv5I8MFg%3D%3D"
+    "expires": 1740259974243,
+    "downloadURL": "https://storage.googleapis.com/apiverve.appspot.com/qrcodegenerator/7277a6dc-6b1f-4af4-820a-755eb1c1a24d.png?GoogleAccessId=635500398038-compute%40developer.gserviceaccount.com&Expires=1740259974&Signature=kk80QPNRGLhIXm6%2BmKozIhoq2ZpehDsiT7%2FyHp4JxvSj5f6EdktMxJrZipxZiz%2BgQNKdr%2F30jaBk8DWT2Q6rPNdQjbJlh1ibu6FnghwMTwtJwU7Y0o2xBXm1b6p9TdqcpMK3ueJviYJ7mnsxdIud6aIQb1t%2FnaUQM%2Fu4dIB8%2By5xXIzldiKKu7zXttyQYb5qHIb89gadMfjd8SVVJVNXm97eroa82C9QL%2Bspuz9grMvyq7x7PfpXW3pZo89x9QKYQu1hT%2Bv1exID7CKv7keZcQ5v7IdSCPGKZyweGsVRQHJ4gwWHJcA2%2FGXrMUKVzXjkUsYBhEArblnh3FVI2%2FP3FQ%3D%3D"
   },
   "code": 200
 }
@@ -132,7 +132,7 @@ All usage of the APIVerve website, API, and services is subject to the [APIVerve
 ## License
 Licensed under the The MIT License (MIT)
 
-Copyright (&copy;) 2024 APIVerve, and Evlar LLC
+Copyright (&copy;) 2025 APIVerve, and EvlarSoft LLC
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
 
