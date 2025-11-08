@@ -5,8 +5,9 @@ using System.Text;
 namespace APIVerve
 {
     public class QRCodeGeneratorQueryOptions {
-public string value { get; set; }
-public string format { get; set; }
-public integer margin { get; set; }
+public string Value { get; set; }
+public string Type { get; set; }
+public string Format { get; set; }
+public string Margin { get; set; }
 }
 }
